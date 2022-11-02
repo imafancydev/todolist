@@ -52,7 +52,7 @@ select {
 /* Todo Header */
 .todo-container {
   max-width: 450px;
-  margin: 3rem auto 0;
+  margin: 4rem auto 0;
   background-color: #b2f8f8;
   padding: 1.5rem;
   border-radius: 15px;
@@ -61,19 +61,19 @@ select {
 .todo-container header {
   text-align: center;
   padding: 0 1rem 1rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 4mm ridge rgb(236, 168, 238);
 }
 
 /* Todo Form */
 #todo-form,
 #edit-form {
-  padding: 1rem;
-  border-bottom: 1px solid #ccc;
+  padding: 2rem;
+  border-bottom: 4mm ridge rgb(236, 168, 238);
 }
 
 #todo-form p,
 #edit-form p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.1rem;
   font-weight: bold;
 }
 
