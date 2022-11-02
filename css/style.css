@@ -4,19 +4,19 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Verdana;
-  color: #333;
+  color: rgba(243, 188, 230);
 }
 
 body {
-  background-image: url("../img/bg.jpg");
-  background-position: center;
-  background-size: cover;
+  background-image: url("../img/bg2.png");
+  background-position: cover;
+  background-size: center;
 }
 
 button {
   background-color: #fdfdfd;
-  color: #102f5e;
-  border: 2px solid #102f5e;
+  color: #fcd1e9;
+  border: 2px solid #fcd1e9;
   padding: 0.3rem 0.6rem;
   font-size: 1rem;
   cursor: pointer;
@@ -27,7 +27,7 @@ button {
 }
 
 button:hover {
-  background-color: #102f5e;
+  background-color: #fcd1e9;
 }
 
 button:hover>i {
@@ -36,7 +36,7 @@ button:hover>i {
 
 button i {
   pointer-events: none;
-  color: #102f5e;
+  color: #fcd1e9;
   font-weight: bold;
 }
 
@@ -53,7 +53,7 @@ select {
 .todo-container {
   max-width: 450px;
   margin: 3rem auto 0;
-  background-color: #fdfdfd;
+  background-color: #b2f8f8;
   padding: 1.5rem;
   border-radius: 15px;
 }
@@ -149,7 +149,7 @@ select {
 }
 
 .done {
-  background: #395169;
+  background: #fcd1e9;
 }
 
 .done h3 {
